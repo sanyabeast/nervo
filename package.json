@@ -1,0 +1,23 @@
+{
+  "name": "nervo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts" : {
+       "build": "cross-env NODE_ENV=production webpack",
+       "start" : "cross-env NODE_ENV=development node scripts/server.js"
+   },
+  "devDependencies" : {
+  	"@babel/core" : "latest",
+    "@babel/plugin-syntax-dynamic-import" : "latest",
+    "@babel/preset-env" : "latest",
+    "babel-loader" : "8.0.4",
+    "cross-env" : "latest",
+    "css-loader" : "latest",
+    "html-webpack-plugin" : "latest",
+    "webpack" : "latest",
+    "webpack-cli" : "latest",
+    "webpack-serve" : "latest",
+    "opn" : "latest"
+	}
+}
